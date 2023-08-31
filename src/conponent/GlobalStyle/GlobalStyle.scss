@@ -11,10 +11,12 @@ html {
 }
 
 :root {
-    --primary: rgb(56, 88, 152);
+    --primary: #1b74e4;
     --text-color: #050505;
     --title-color: #656565;
     --white-color: #fff;
+
+    --header-height: 56px;
 }
 
 .fill-white {
