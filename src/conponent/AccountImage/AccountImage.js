@@ -6,9 +6,12 @@ const cx = classNames.bind(style);
 
 function AccountImage({ src, alt, className }) {
     const cls = cx('image', { [className]: className });
+    if (src && images[src]) {
+        src = images[src];
+    }
     return (
         <>
-            <img src={images.noImage} alt={alt} className={cls} />
+            <img src={src ? src : images.noImage} alt={alt} className={cls} />
         </>
     );
 }

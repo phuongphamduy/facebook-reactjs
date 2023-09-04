@@ -4,10 +4,39 @@ import classNames from 'classnames/bind';
 import AccountImage from '~/conponent/AccountImage/AccountImage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark, faCircleUser, faClockRotateLeft, faUsers, faVideo } from '@fortawesome/free-solid-svg-icons';
+import Menu from '~/conponent/Menu/Menu';
 
 const cx = classNames.bind(style);
 
 function Sidebar() {
+    const dataShortCut = [
+        {
+            id: 1,
+            image: 'image1.jpg',
+            name: 'Học bổng cộng đồng',
+        },
+        {
+            id: 2,
+            image: 'image2.jpg',
+            name: 'Tuyển dụng thực tập IT',
+        },
+        {
+            id: 3,
+            image: 'image3.png',
+            name: 'ReactJS Việt Nam',
+        },
+        {
+            id: 4,
+            image: 'image4.jpg',
+            name: 'Basketball Stars',
+        },
+        {
+            id: 5,
+            image: 'image5.png',
+            name: 'GameVH',
+        },
+    ];
+
     return (
         <>
             <div className={cx('sidebar-wrapper')}>
@@ -49,6 +78,8 @@ function Sidebar() {
                         </Link>
                     </li>
                 </ul>
+                <div className={cx('seperator')}></div>
+                <Menu title="Lối tắt của bạn" data={dataShortCut} />
             </div>
         </>
     );
