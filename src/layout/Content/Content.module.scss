@@ -2,86 +2,53 @@
     margin-top: 25px;
 }
 
-.story-wrapper {
-    .story-list {
-        display: flex;
-        justify-content: center;
-    }
-
-    .story-item-create {
+.post-wrapper {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    .post-border {
         border-radius: 10px;
-        margin: 0 4px;
-        box-shadow: 0 0 1px;
-        img {
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            background-color: #b9b9ba;
-            object-fit: cover;
-        }
-
-        .story-name {
+        background-color: #fff;
+        box-shadow: 0 0 5px #ccc;
+        width: 590px;
+        padding: 10px 20px;
+        .post-section {
             display: flex;
-            padding: 22px 0px 10px 0px;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            span {
-                margin: auto;
-                font-size: 1.3rem;
+            .post-input {
+                padding: 10px 20px;
+                margin-left: 8px;
+                border: none;
+                font-size: 1.4rem;
+                background-color: #f0f2f5;
+                border-radius: 20px;
+                width: 100%;
+                color: var(--text-color);
                 font-weight: 600;
             }
+        }
 
-            .story-create-icon {
-                position: absolute;
-                top: -40%;
-                background-color: white;
-                border-radius: 50%;
-                padding: 6px;
-                .wrapper {
-                    background-color: #1876f2;
-                    color: white;
-                    padding: 3px 8px;
-                    border-radius: 50%;
-                    font-size: 2rem;
+        .seperator {
+            margin: 15px 0px;
+            border: 1px solid var(--seperator-color);
+        }
+
+        .post-type {
+            display: flex;
+            justify-content: space-between;
+            .post-type-item {
+                font-size: 1.5rem;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 8px;
                 }
-            }
-        }
-    }
 
-    .story-item {
-        border-radius: 10px;
-        margin: 0 4px;
-        box-shadow: 0 0 1px;
-        position: relative;
-        background-color: #ccc;
-        cursor: pointer;
-        .story-img {
-            border-radius: 10px;
-            background-color: #b9b9ba;
-            object-fit: cover;
-        }
-
-        .story-name {
-            position: absolute;
-            bottom: 5px;
-            left: 8px;
-            color: var(--white-color);
-
-            span {
-                margin: auto;
-                font-size: 1.3rem;
-                font-weight: 600;
-            }
-        }
-
-        .story-account {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-
-            .img {
-                padding: 3px;
-                background-color: #1876f2;
+                span {
+                    color: var(--title-color);
+                    font-weight: 600;
+                }
             }
         }
     }

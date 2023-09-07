@@ -13,6 +13,9 @@ const images = {
     ['story5.jpg']: require('~/assets/images/story/story5.jpg'),
     ['accountImage.jpg']: require('~/assets/images/accountImage.jpg'),
     noImageStory: require('~/assets/images/noImageStory.png'),
+    camera: require('~/assets/images/camera.png'),
+    img: require('~/assets/images/img.png'),
+    face: require('~/assets/images/face.png'),
 };
 
 export default images;
