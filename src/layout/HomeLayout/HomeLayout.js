@@ -2,6 +2,7 @@ import Header from '~/layout/Header';
 import classNames from 'classnames/bind';
 import style from './HomeLayout.module.scss';
 import Sidebar from '../Sidebar/Sidebar';
+import Content from '~/layout/Content';
 
 const cx = classNames.bind(style);
 function HomeLayout() {
@@ -13,7 +14,9 @@ function HomeLayout() {
                     <div className="col-3">
                         <Sidebar />
                     </div>
-                    <div className="col-6">content</div>
+                    <div className="col-6">
+                        <Content />
+                    </div>
                     <div className="col-3">message</div>
                 </div>
             </div>
