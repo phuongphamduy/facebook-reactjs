@@ -12,10 +12,13 @@ const images = {
     ['story4.jpg']: require('~/assets/images/story/story4.jpg'),
     ['story5.jpg']: require('~/assets/images/story/story5.jpg'),
     ['accountImage.jpg']: require('~/assets/images/accountImage.jpg'),
+    ['accountImage1.png']: require('~/assets/images/accountImage1.png'),
     noImageStory: require('~/assets/images/noImageStory.png'),
     camera: require('~/assets/images/camera.png'),
     img: require('~/assets/images/img.png'),
     face: require('~/assets/images/face.png'),
+    ['post1.jpg']: require('~/assets/images/post1.jpg'),
+    ['post2.jpg']: require('~/assets/images/post2.jpg'),
 };
 
 export default images;
