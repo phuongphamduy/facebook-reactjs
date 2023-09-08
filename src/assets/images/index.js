@@ -19,6 +19,8 @@ const images = {
     face: require('~/assets/images/face.png'),
     ['post1.jpg']: require('~/assets/images/post1.jpg'),
     ['post2.jpg']: require('~/assets/images/post2.jpg'),
+    ['pnj.jpg']: require('~/assets/images/pnj.jpg'),
+    ['watch.jpg']: require('~/assets/images/watch.jpg'),
 };
 
 export default images;

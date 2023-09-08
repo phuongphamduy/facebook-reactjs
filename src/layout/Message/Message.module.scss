@@ -1,0 +1,34 @@
+.message-wrapper {
+    position: fixed;
+    overflow-y: scroll;
+    height: 100vh;
+    right: 0;
+    width: 360px;
+    padding-bottom: 80px;
+}
+
+.advertise-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    .advertise-img {
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+
+    .advertise-info {
+        h5 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+            color: var(--title-color);
+        }
+    }
+}
+
+.seperator {
+    border: 1px solid var(--seperator-color);
+    margin-top: 15px;
+}
