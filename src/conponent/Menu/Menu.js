@@ -12,7 +12,7 @@ function Menu({ title, data }) {
             <ul className={cx('sidebar-list')}>
                 {data.map((item, index) => {
                     return (
-                        <li className={cx('sidebar-item')}>
+                        <li key={item.id} className={cx('sidebar-item')}>
                             <Link key={item.id} to="/" className={cx('sidebar-link')}>
                                 <AccountImage className={cx('sidebar-img')} src={item.image} />
                                 <span className={cx('sidebar-item-text')}>{item.name}</span>

@@ -35,6 +35,21 @@ function Sidebar() {
             image: 'image5.png',
             name: 'GameVH',
         },
+        {
+            id: 6,
+            image: 'image2.jpg',
+            name: 'Tuyển dụng thực tập IT',
+        },
+        {
+            id: 7,
+            image: 'image3.png',
+            name: 'ReactJS Việt Nam',
+        },
+        {
+            id: 8,
+            image: 'image3.png',
+            name: 'ReactJS Việt Nam',
+        },
     ];
 
     return (
@@ -80,6 +95,9 @@ function Sidebar() {
                 </ul>
                 <div className={cx('seperator')}></div>
                 <Menu title="Lối tắt của bạn" data={dataShortCut} />
+                <div className={cx('sidebar-footer')}>
+                    <p>Sản phẩm thiết kế giao diện dựa trên facebook sử dụng reactJS</p>
+                </div>
             </div>
         </>
     );
