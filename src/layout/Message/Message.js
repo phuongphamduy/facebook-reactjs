@@ -94,14 +94,14 @@ function Message() {
         <div className={cx('message-wrapper')}>
             <Menu title="Được tài trợ" />
             <div className={cx('advertise-wrapper')}>
-                <img src={images['pnj.jpg']} width="130px" className={cx('advertise-img')} />
+                <img src={images['pnj.jpg']} className={cx('advertise-img')} />
                 <div className={cx('advertise-info')}>
                     <h5>PNJ Watch</h5>
                     <p>pnj.com.vn</p>
                 </div>
             </div>
             <div className={cx('advertise-wrapper')}>
-                <img src={images['watch.jpg']} width="130px" className={cx('advertise-img')} />
+                <img src={images['watch.jpg']} className={cx('advertise-img')} />
                 <div className={cx('advertise-info')}>
                     <h5>Đồng hồ Hải Triều</h5>
                     <p>haitrieu.vn.com</p>

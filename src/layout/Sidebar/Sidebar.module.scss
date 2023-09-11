@@ -1,3 +1,26 @@
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1100px;
+$bigDesktop-width: 1260px;
+
+@mixin mobile {
+    @media (max-width: #{$mobile-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) and (max-width: #{$bigDesktop-width - 1px}) {
+        @content;
+    }
+}
+
 .sidebar-wrapper {
     margin-top: 20px;
     padding-left: 16px;
@@ -5,7 +28,7 @@
     padding-bottom: 80px;
     position: fixed;
     overflow-y: scroll;
-    width: 330px;
+    width: 22%;
 }
 
 .sidebar-list {
