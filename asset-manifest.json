@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/my-facebook/static/css/main.f6b47864.css",
+    "main.js": "/my-facebook/static/js/main.7145e06a.js",
+    "static/js/787.a46efa3f.chunk.js": "/my-facebook/static/js/787.a46efa3f.chunk.js",
+    "static/media/post2.jpg": "/my-facebook/static/media/post2.eb4d03aede9ba1c4984a.jpg",
+    "static/media/post1.jpg": "/my-facebook/static/media/post1.e93482973c6a4c50eb8c.jpg",
+    "static/media/story5.jpg": "/my-facebook/static/media/story5.4b84afa101d2c1c94539.jpg",
+    "static/media/story3.jpg": "/my-facebook/static/media/story3.5fa3538d2840294c4d9b.jpg",
+    "static/media/story4.jpg": "/my-facebook/static/media/story4.76bcbed75b21138a114b.jpg",
+    "static/media/story1.jpg": "/my-facebook/static/media/story1.61ec140128fe55ed6c37.jpg",
+    "static/media/watch.jpg": "/my-facebook/static/media/watch.b06173459cbc8e14ac1f.jpg",
+    "static/media/pnj.jpg": "/my-facebook/static/media/pnj.770243a83c21352b33b9.jpg",
+    "static/media/story2.jpg": "/my-facebook/static/media/story2.ef15e7b64d8fd04f4b85.jpg",
+    "static/media/storenotactive.svg": "/my-facebook/static/media/storenotactive.26ef9ce09817ee9efe92a5ad8c46198c.svg",
+    "static/media/public.svg": "/my-facebook/static/media/public.ae504c0028901c0515b9a89a2cf08ba0.svg",
+    "static/media/store.svg": "/my-facebook/static/media/store.8d813c5712dd9f9932e80a6970e46da9.svg",
+    "static/media/homenotactive.svg": "/my-facebook/static/media/homenotactive.93b32d0b013d521a27f6087baaec023f.svg",
+    "static/media/usersnotactive.svg": "/my-facebook/static/media/usersnotactive.cdcd330627fbad3fcb7669ca46e3be6c.svg",
+    "static/media/tivinotactive.svg": "/my-facebook/static/media/tivinotactive.d6f5288e8963eef19c236a81d1eb75e8.svg",
+    "static/media/consolenotactive.svg": "/my-facebook/static/media/consolenotactive.aab15a2b40830e236c06a43ee3454a73.svg",
+    "static/media/notify.svg": "/my-facebook/static/media/notify.0b07c4d731a76b9120c41e5fab74f957.svg",
+    "static/media/home.svg": "/my-facebook/static/media/home.d0fe97e5f813d932b25ec340e662ccfd.svg",
+    "index.html": "/my-facebook/index.html",
+    "static/media/users.svg": "/my-facebook/static/media/users.a7fa88575a8eda0dd96858c270d850cc.svg",
+    "static/media/tivi.svg": "/my-facebook/static/media/tivi.5cdccf45e95a72f819de4b5b3c806632.svg",
+    "static/media/logo.svg": "/my-facebook/static/media/logo.16ec8fb7b0e6d74177a3b6552e06cbe3.svg",
+    "static/media/message.svg": "/my-facebook/static/media/message.5d693711e804ac755c2ec77566122269.svg",
+    "static/media/console.svg": "/my-facebook/static/media/console.6bd50c3bbcd22c757d92095840ecbcdb.svg",
+    "static/media/menu.svg": "/my-facebook/static/media/menu.97e4dab2ad77bf9eedbc7c1b68e2a729.svg",
+    "main.f6b47864.css.map": "/my-facebook/static/css/main.f6b47864.css.map",
+    "main.7145e06a.js.map": "/my-facebook/static/js/main.7145e06a.js.map",
+    "787.a46efa3f.chunk.js.map": "/my-facebook/static/js/787.a46efa3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6b47864.css",
+    "static/js/main.7145e06a.js"
+  ]
+}
